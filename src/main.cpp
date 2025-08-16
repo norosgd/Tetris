@@ -17,7 +17,8 @@ int main()
         ClearBackground(backgroundColor);
 
         // Game logic and rendering would go here
-
+        grid.Draw(); // Draw the grid on the screen
+        
         EndDrawing();
     }
 
